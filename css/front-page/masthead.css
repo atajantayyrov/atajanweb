@@ -1,0 +1,49 @@
+.masthead {
+  background: #000;
+  height: 700px;
+  width: 100%;
+}
+.container {
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.masthead-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  flex: 0 0 50%;
+  max-width: 50%;
+  color: #ffff;
+}
+.title {
+  font-size: 80px;
+  margin: 0;
+  font-weight: 100;
+}
+.web {
+  font-size: 40px;
+  color: #f3ca4e;
+  font-style: italic;
+  margin: 0;
+}
+.dev {
+  font-size: 40px;
+  margin: 0;
+}
+.masthead-img {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  display: flex;
+  height: 700px;
+}
+.masthead-img img {
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
