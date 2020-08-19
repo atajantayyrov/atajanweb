@@ -36,7 +36,7 @@
   font-family: "Playfair Display", serif;
   font-weight: 100;
 }
-.form {
+.aw-footer__form {
   display: flex;
   flex-direction: column;
   flex: 0 0 50%;
@@ -44,15 +44,15 @@
   height: 100%;
   justify-content: center;
 }
-.Email {
+.aw-footer__email {
   border: 1px solid #f3ca4e;
   width: 368px;
   margin-bottom: 20px;
 }
-.Email ::placeholder {
+.aw-footer__email ::placeholder {
   color: #f3ca4e;
 }
-.Email input {
+.aw-footer__email input {
   background-color: transparent;
   padding: 9px 16px;
   border: none;
@@ -62,15 +62,15 @@
   font-family: "Playfair Display", serif;
   color: #f3ca4e;
 }
-.message {
+.aw-footer__message {
   border: 1px solid #f3ca4e;
   width: 368px;
   margin-bottom: 20px;
 }
-.message ::placeholder {
+.aw-footer__message ::placeholder {
   color: #f3ca4e;
 }
-.message textarea {
+.aw-footer__message textarea {
   background-color: transparent;
   border: none;
   outline: none;

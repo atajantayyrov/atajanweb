@@ -5,13 +5,13 @@
                 <div class="aw-footer__text__title">Leave a Message</div>
                 <div class="aw-footer__text__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante tortor, fermentum quis rutrum ac, tempor quis augue.</div>
             </div>
-            <div class="form">
+            <div class="aw-footer__form">
                 <form action="#" metod="post"></form>
-                    <div class="Email">
-                        <input type="text" name="Email" placeholder="Email"/> 
+                    <div class="aw-footer__email">
+                        <input class="aw-form__input" type="text" name="Email" placeholder="Email"/> 
                     </div>
-                    <div class="message">
-                        <textarea name="text" placeholder="Message" ></textarea>
+                    <div class="aw-footer__message">
+                        <textarea class="aw-form__textarea" name="text" placeholder="Message" ></textarea>
                     </div>
                         <button class="aw-footer__btn" type="button">Link to website</button>
                         <!-- knopka -->

@@ -3,7 +3,7 @@
         <h2 class="aw-projects__title">
             Projects
         </h2>
-        <div class="aw-projects__wrapper">
+        <div class="aw-projects__item">
             <a href="#!" class="aw-projects__img">
                 <img src="img/project1.jpg" alt="project1">
 </a>
@@ -17,7 +17,7 @@
                 <button class="aw-projects__btn" type="button">Link to website</button>
             </div>
         </div>
-        <div class="aw-projects__wrapper">
+        <div class="aw-projects__item">
             <a href="#!" class="aw-projects__img">
                 <img src="img/project1.jpg" alt="project1">
 </a>
