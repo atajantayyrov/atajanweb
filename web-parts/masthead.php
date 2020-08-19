@@ -1,14 +1,12 @@
-<section class="masthead">
-<div class="container">
-    <div class="wrapper">
-        <div class="masthead-text">
-            <h1 class="title">Atajan</h1>
-            <p class="web">Website</p>
-            <p class="dev">Developer</p>
+<section class="aw-masthead">
+    <div class="aw-wrapper">
+        <div class="aw-masthead__text">
+            <h1 class="aw-masthead__title">Atajan</h1>
+            <p class="aw-masthead__web">Website</p>
+            <p class="aw-masthead__dev">Developer</p>
         </div>
-        <div class="masthead-img">
+        <div class="aw-masthead__img">
         <img src="img/atajan.jpg" alt="atajan">
         </div>
     </div>
-</div>
 </section>
