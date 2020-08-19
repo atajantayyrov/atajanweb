@@ -1,0 +1,6 @@
+@mixin flex-width($x) {
+    -ms-flex: 0 0 #{$x};
+    flex: 0 0 #{$x};
+    max-width: #{$x};
+    box-sizing: border-box;
+}
