@@ -84,6 +84,7 @@
   background-color: #000000;
   border: 1px solid #f3ca4e;
   cursor: pointer;
+  font-family: "Playfair Display", serif;
 }
 .aw-footer__btn:hover {
 }
