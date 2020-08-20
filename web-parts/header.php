@@ -10,9 +10,9 @@
             <a href="#!" class="aw-project__title">PROJECTS</a> 
         </div>
         <div class="aw-icons">
-            <a href="#!"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="#!"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            <a href="#!"><i class="fa fa-github" aria-hidden="true"></i></i></a>
+            <a href="https://t.me/tayyrof" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+            <a href="https://vk.com/id501581524" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+            <a href="https://github.com/atajantayyrov" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></i></a>
         </div>
     </div>
 </header>

@@ -2,7 +2,7 @@
   background: #000;
   height: 100vh;
   width: 100%;
-  padding: 0px 280px;
+  overflow: hidden;
 }
 
 .aw-wrapper {
@@ -21,17 +21,17 @@
   color: #ffff;
 }
 .aw-masthead__title {
-  font-size: 8vw;
+  font-size: 6vw;
   margin: 0;
 }
 .aw-masthead__web {
-  font-size: 40px;
+  font-size: 5vw;
   color: #f3ca4e;
   font-style: italic;
   margin: 0;
 }
 .aw-masthead__dev {
-  font-size: 40px;
+  font-size: 3vw;
   margin: 0;
 }
 .aw-masthead__img {
@@ -45,4 +45,39 @@
   bottom: 0;
   height: 100%;
   width: auto;
+}
+
+@media (max-width: 1199px) {
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+  .aw-masthead {
+    padding: 0 90px;
+  }
+}
+@media (max-width: 575px) {
+  .aw-masthead {
+    padding: 0 47px;
+  }
+  .aw-masthead__text {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .aw-masthead__img {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .aw-masthead__img img {
+    left: 40px;
+  }
+  .aw-masthead__title {
+    font-size: 10vw;
+  }
+  .aw-masthead__web {
+    font-size: 8vw;
+  }
+  .aw-masthead__dev {
+    font-size: 5vw;
+  }
 }

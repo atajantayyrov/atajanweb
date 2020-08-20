@@ -61,7 +61,6 @@ header {
 .aw-project {
   writing-mode: vertical-rl;
   font-family: "Playfair Display", serif;
-  width: 40px;
   margin: 0 auto;
 }
 .aw-project__title {
@@ -100,4 +99,33 @@ header {
 
 .aw-icons a i {
   padding: 14px;
+}
+
+@media (max-width: 1199px) {
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 575px) {
+  .aw-logo a {
+    height: 37px;
+    width: 37px;
+    font-size: 21px;
+  }
+  .aw-menu {
+    width: 49px;
+  }
+
+  .aw-project__title {
+    font-size: 20px;
+  }
+  .aw-icons a {
+    width: 38px;
+    height: 38px;
+    font-size: 24px;
+  }
+  .aw-icons a i {
+    padding: 0;
+  }
 }

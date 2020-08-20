@@ -1,5 +1,5 @@
 <section class="aw-projects">
-    <div class="container">
+    <div class="aw-projects container">
         <h2 class="aw-projects__title">
             Projects
         </h2>
