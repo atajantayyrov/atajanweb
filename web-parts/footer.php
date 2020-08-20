@@ -2,8 +2,8 @@
     <div class="container">
         <div class="aw-footer__wrapper">
             <div class="aw-footer__text">
-                <div class="aw-footer__text__title">Leave a Message</div>
-                <div class="aw-footer__text__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante tortor, fermentum quis rutrum ac, tempor quis augue.</div>
+                <div class="aw-footer__text-title">Leave a Message</div>
+                <div class="aw-footer__text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante tortor, fermentum quis rutrum ac, tempor quis augue.</div>
             </div>
             <div class="aw-footer__form">
                 <form action="#" metod="post"></form>

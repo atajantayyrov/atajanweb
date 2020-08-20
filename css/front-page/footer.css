@@ -23,7 +23,7 @@
   height: 100%;
   padding-left: 150px;
 }
-.aw-footer__text__title {
+.aw-footer__text-title {
   color: #f3ca4e;
   font-size: 40px;
   font-family: "Playfair Display", serif;
@@ -31,7 +31,7 @@
   font-style: italic;
   font-weight: 900;
 }
-.aw-footer__text__p {
+.aw-footer__text-p {
   font-style: 16px;
   color: #ffffff;
   width: 368px;
@@ -80,15 +80,16 @@
   width: 153px;
   height: 50px;
   color: #f3ca4e;
-  font-weight: 700;
   font-size: 16px;
-  background-color: transparent;
+  background-color: #000000;
   border: 1px solid #f3ca4e;
   cursor: pointer;
 }
 .aw-footer__btn:hover {
 }
 .aw-copyright {
+  font-family: "PT Sans Narrow", sans-serif;
+
   background: #343434;
   height: 97px;
   display: flex;
@@ -330,10 +331,10 @@
   }
 }
 @media (max-width: 575px) {
-  .aw-footer__text__title {
+  .aw-footer__text-title {
     font-size: 25px;
   }
-  .aw-footer__text__p {
+  .aw-footer__text-p {
     width: 242px;
   }
   .aw-footer__text {
@@ -349,6 +350,6 @@
     font-size: smaller;
   }
   .aw-footer__btn {
-    width: 100%;
+    width: 208px;
   }
 }

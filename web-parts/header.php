@@ -7,7 +7,7 @@
             </a>
         </div>
         <div class="aw-project">
-            <a href="#!" class="aw-project__title">PROJECTS</a> 
+            <a href="#myProjects" class="aw-project__title anchor">PROJECTS</a> 
         </div>
         <div class="aw-icons">
             <a href="https://t.me/tayyrof" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
