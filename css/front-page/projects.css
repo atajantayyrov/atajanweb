@@ -10,13 +10,31 @@
   font-size: 60px;
   text-transform: uppercase;
   font-weight: 300;
+  overflow: hidden;
+  background: linear-gradient(90deg, #f5f5f5, #000, #f5f5f5);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.2);
+  animation: animate 3s linear infinite;
+  -webkit-animation: animate 3s linear infinite;
 }
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
 .aw-projects__item {
   border-bottom: 1px solid #f3ca4e;
   padding: 40px 0;
   margin: 0 auto;
   display: flex;
 }
+
 .aw-projects__item:last-child {
   border: none;
 }
@@ -55,16 +73,137 @@
   font-size: 16px;
   padding-bottom: 24px;
 }
-.aw-projects__btn {
+
+.aw-projects__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   width: 153px;
   height: 50px;
-  color: #000;
+  color: #fdcf01;
   font-family: "Playfair Display", serif;
   font-size: 16px;
-  background-color: #ffffff;
-  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  /* box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); */
+  overflow: hidden;
+  background: rgb(0, 0, 0);
 }
-.aw-projects__btn:hover {
+.aw-projects__buttons:hover {
+  color: #fdcf01;
+}
+.aw-projects__buttons::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  width: 50%;
+  background: rgba(236, 195, 11, 0.137);
+}
+.aw-projects__buttons span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #000000, #f3ca4e);
+  animation: animate1 linear infinite;
+  -webkit-animation: animate1 2s linear infinite;
+}
+@keyframes animate1 {
+  0% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+  }
+}
+.aw-projects__buttons span:nth-child(2) {
+  position: absolute;
+  width: 2px;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(to bottom, #000000, #f3ca4e);
+  -webkit-animation: animate2 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate2 {
+  0% {
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+  }
+}
+.aw-projects__buttons span:nth-child(3) {
+  position: absolute;
+  width: 153px;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background: linear-gradient(to left, #000000, #f3ca4e);
+  -webkit-animation: animate3 2s linear infinite;
+}
+@keyframes animate3 {
+  0% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+  }
+}
+.aw-projects__buttons span:nth-child(4) {
+  position: absolute;
+  width: 2px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: linear-gradient(to top, #000000, #f3ca4e);
+  -webkit-animation: animate4 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate4 {
+  0% {
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+  }
 }
 
 @media (max-width: 1199px) {
@@ -124,7 +263,7 @@
   .aw-projects__img img {
     padding: 5px;
   }
-  .aw-projects__btn {
+  .aw-projects__buttons {
     width: 208px;
   }
   .aw-masthead__img img {

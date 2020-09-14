@@ -7,8 +7,10 @@
             <p class="aw-masthead__dev">Developer</p>
         </div>
         </div>
+                
         <div class="aw-masthead__img">
         <img src="img/atajan.jpg" alt="atajan">
+         
         </div>
     </div>
 </section>

@@ -13,13 +13,14 @@
                     <div class="aw-footer__message">
                         <textarea class="aw-form__textarea" name="text" placeholder="Message" ></textarea>
                     </div>
-                        <button class="aw-footer__btn" type="button">Link to website</button>
-                        <!-- knopka -->
-                        <!-- <a href="#!" class="wave-bt">
-                        <span class="wave-bt__text">Link to website</span>
-                        <span class="wave-bt__waves"></span>
-                        </a> -->
-                        <!-- knopka -->
+                        <!-- <button class="aw-footer__btn" type="button">Link to website</button> -->
+                        <a href="#!" class="aw-footer__buttons">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        link to website
+                        </a>
             </div>
     </div>
     </div>
