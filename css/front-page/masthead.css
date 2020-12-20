@@ -22,9 +22,9 @@
   justify-content: center;
   text-align: left;
   position: absolute;
-  top: 0;
-  left: 140px;
-  color: #ffff;
+  top: 30px;
+  left: 130px;
+  color: #2c2c2c;
 }
 .aw-masthead__title {
   font-size: 6vw;
