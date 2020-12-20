@@ -1,5 +1,8 @@
 <section class="aw-masthead">
-    <div class="aw-wrapper">
+
+    <div class="aw-masthead__img">
+        <img src="img/ata.gif" alt="atajan">
+        </div>
         <div class="aw-masthead__text">
             <div>
             <h1 class="aw-masthead__title">Atajan</h1>
@@ -8,9 +11,6 @@
         </div>
         </div>
                 
-        <div class="aw-masthead__img">
-        <img src="img/atajan.jpg" alt="atajan">
-         
-        </div>
-    </div>
+        
+        
 </section>

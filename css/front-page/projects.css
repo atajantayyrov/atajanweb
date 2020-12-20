@@ -266,14 +266,5 @@
   .aw-projects__buttons {
     width: 208px;
   }
-  .aw-masthead__img img {
-    left: -200px;
-    right: 0;
-    margin: auto;
-    opacity: 0.5;
-    height: 240%;
-  }
-  .aw-masthead__text {
-    z-index: 1;
-  }
+ 
 }
