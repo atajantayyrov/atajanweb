@@ -6,7 +6,7 @@
                 <div class="aw-footer__text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante tortor, fermentum quis rutrum ac, tempor quis augue.</div>
             </div>
             <div class="aw-footer__form">
-                     <form action="index.php" metod="post" >
+                     <form action="footer.php" metod="post" >
                      <div class="aw-footer__email">
                         <input class="aw-form__input" type="text" name="name" placeholder="Full name"/> 
                     </div>
