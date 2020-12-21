@@ -45,6 +45,7 @@
         <?php include 'web-parts/masthead.php'; ?>
         <?php include 'web-parts/projects.php'; ?>
         <?php include 'web-parts/footer.php'; ?>
+        
     </main>
     <script
   src="https://code.jquery.com/jquery-3.5.1.min.js"
