@@ -6,12 +6,12 @@
                 <div class="aw-footer__text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ante tortor, fermentum quis rutrum ac, tempor quis augue.</div>
             </div>
             <div class="aw-footer__form">
-                     <form action="footer.php" metod="post" >
+                     <form action="contact-form.php" metod="post" >
                      <div class="aw-footer__email">
                         <input class="aw-form__input" type="text" name="name" placeholder="Full name"/> 
                     </div>
                     <div class="aw-footer__email">
-                        <input class="aw-form__input" type="text" name="Email" placeholder="Email"/> 
+                        <input class="aw-form__input" type="text" name="email" placeholder="Email"/> 
                     </div>
                     <div class="aw-footer__email">
                         <input class="aw-form__input" type="text" name="subject" placeholder="Subject"/> 
@@ -28,24 +28,7 @@
                         link to website
                         </button>
                     </form>
-                    <!-- php email -->
-                        <?php 
-                            if(isset($_POST['submit'])) {
-                                $name = $_POST['name'];
-                                $subject = $_POST['subject'];
-                                $mailFrom = $_POST['mail'];
-                                $message = $_POST['message'];
-
-                                $mailTo = "atadzantajyrov020@gmail.com";
-                                $headers = "From: ".$mailFrom;
-                                $txt = "you have received an e-mail from".$name.".\n\n".$message;
-
-                                mail($mailTo, $subject, $txt, $headers);
-                                header("Location: index.php?mailsend");
-                            }
-                            ?>
-
-                    <!-- php email -->
+                   
 
             </div>
     </div>
